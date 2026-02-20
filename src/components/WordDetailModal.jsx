@@ -4,7 +4,7 @@ import { themeColor } from "../constants/flagMap";
 const WordDetailModal = ({ word, theme, onEdit, onDelete, onClose }) => {
   const color = themeColor(word.themeId);
 
-  // example이 문자열이든 배열이든 배열로 통일
+  // example이 문자열이든 배열이든 배열로 통일.
   const examples = word.example
     ? Array.isArray(word.example) ? word.example : [word.example]
     : [];
