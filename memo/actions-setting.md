@@ -56,6 +56,12 @@ git push origin main
 - Folder: `/ (root)`
 - Save!
 
+**⑥ GitHub Settings → Actions 설정**
+
+- GitHub 레포 → Settings → Actions → General 들어가서
+- Workflow permissions 에서
+- Read and write permissions 로 변경 후 Save!
+
 ---
 
 ## 배포 흐름
